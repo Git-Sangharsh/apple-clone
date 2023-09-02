@@ -1,0 +1,837 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.parent-container{
+    overflow: hidden;
+}
+.content{
+    background-color:   rgb(239, 239, 239);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display", sans-serif;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-wrapper > h1{
+    padding-top: 90px;
+    margin: 0;
+    font-weight: 550;
+    font-size: 52px;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif;
+    text-shadow: 2px 2px 2px rgb(193, 193, 193);
+    background-color: rgb(239, 239, 239);
+}
+
+/* media query */
+
+.content-wrapper{
+    margin-bottom: 20px;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+}
+
+.content-img-1{
+    width: 900px;
+    border-radius: 20px;
+    /* top content bottom padding */
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300px;
+    color: rgb(80, 79, 79);
+    margin: 0;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+h3 > a {
+    color: #06c;
+    text-shadow: 2px 2px 2px rgb(193, 193, 193);
+}
+
+h3 > a:hover{
+    text-decoration: underline  ;
+}
+
+.video-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column  ;
+    padding-bottom: 40px;
+    /* border-radius: 30px; */
+}
+/* .cont-video-width{
+} */
+
+.video-section > .mackbook-air-text > h6 > a {
+    color: #06c;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0 10px;
+    padding: 0;
+    font-size: 16px;
+}
+
+.mackbook-air-text > h4{
+    margin: 10px;
+}
+.video-section > .mackbook-air-text > h6 > a:hover {
+    text-decoration: underline;
+}
+.video-section > .mackbook-air-text > h6{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video-section > .mackbook-air-text {
+    margin-top: 20px;
+}
+.video-section > .cont-video-width > video{
+    width: 80vw;
+    border-radius: 30px;
+}
+.mackbook-air-text > h1{
+    margin: 0;
+    font-weight: 550;
+    font-size: 52px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(193, 193, 193);
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.iphone-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    padding-bottom: 40px;
+    margin: 10px;
+    width: 100vw;
+}
+
+.iphone-section > h1{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 550;
+    font-size: 52px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(193, 193, 193);
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.iphone-section > h4{
+    margin: 5px;
+}
+
+.iphone-section > h6 > a{
+    color: #06c;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0 10px;
+    padding: 0;
+    font-size: 16px;
+}
+
+.iphone-section > img{
+    width: 50vw;
+    border-radius: 30px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Add a subtle shadow */
+}
+.iphone-section > h6 > a:hover {
+    text-decoration: underline;
+}
+.iphone-section >  h6{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.grid-img > img{
+    width: 50vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.flex-row-1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-row-2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-row-3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+.grid-img > h6 > a {
+    color: #06c;
+}
+.grid-img > h6 > a:hover {
+    text-decoration: underline;
+}
+.grid-img > h6{
+    text-align: center;
+}
+
+
+.iphone-grid{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: 10px;
+}
+
+.iphone-grid > h1{
+    padding: 0px;
+    font-weight: 550;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.iphone-grid > h5{
+    padding: 0px;
+    margin: -10px;
+    font-size: 17px;
+}
+
+.iphone-grid > img{
+    width: 30vw;
+}
+
+.mac-grid {
+    background-color: black;
+    color: white;
+    margin:  10px;
+    width: 50%;
+}
+.mac-grid > img {
+    width: 100%;
+}
+
+.watch-grid{
+    background-color: black;
+    margin: 10px ;
+    width: 50%;
+}
+
+.watch-grid > img{
+    width: 90%;
+}
+
+.watch-grid > h1{
+    font-weight: 550;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.watch-grid > h5{
+    color: rgb(197, 15, 15);
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.watch-grid > h4{
+    color:  white;
+    font-weight: 500;
+}
+
+.vision-grid {
+    background-color: black;
+    margin: 10px;
+    width: 50%;
+}
+
+.vision-grid > img{
+    width: 100%;
+}
+
+.vision-grid > h1{
+    font-weight: 550;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.vision-grid > h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.vision-grid > .vision-grid-h5{
+    color: white;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.trade-grid {
+    background-color: #FFFFFF;
+    margin: 10px;
+    width: 50%;
+}
+
+.trade-grid > img{
+    width: 100%;
+}
+
+.trade-grid > h1{
+    padding-top: 15px;
+    font-weight: 550;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px;
+}
+
+.trade-grid > h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+.trade-grid > h6{
+    margin: 3px;
+}
+
+.card-grid {
+    background-color: #FAFAFA;
+    margin: 10px;
+    width: 50%;
+}
+
+.card-grid > img{
+    width: 100%;
+}
+
+.card-grid > h1{
+    padding-top: 15px;
+    font-weight: 550;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px;
+}
+
+.card-grid > h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+.card-grid > h6{
+    margin: 3px;
+}
+.watch-grid > h1{
+    margin: 30px 0px 0px 0px;
+}
+
+.iphone-grid > h1{
+    margin: 0px 0px 10px 0px;
+    padding-top: 15px;
+}
+
+.mac-grid > h1{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+.mac-grid > h5{
+    margin: 0;
+}
+
+.mac-grid > h6{
+    margin: 5px;
+}
+
+.vision-grid > h1{
+    margin-bottom: 10px;
+}
+
+.vision-grid > h6{
+    margin: 10px;
+    padding-bottom: 60px;
+}
+
+.slider{
+    background-color: white;
+    height: 680px;
+    z-index: 1;
+    position: relative;
+}
+
+.slide-img{
+    position: absolute;
+    top: 38%;
+
+}
+
+.slide-img > img{
+    width: 60vw;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-carousel{
+    background-color: #FAFAFA;
+}
+
+.apple-paragraph{
+    background-color: #F5F5F7;
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.apple-paragraph > p {
+    color: #6E6E73;
+    width: 50vw;
+    background-color: #EFEFEF;
+}
+
+.grid-img > h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* padding: 0; */
+    /* margin: 10px 0px; */
+}
+
+/* .grid-img > h6 > a{
+    margin: 0px 10px;
+} */
+@media (max-width: 917px) {
+    .content-img-1{
+        width: 600px;
+    }
+
+    .content-wrapper > h1{
+        font-size: 40px;
+    }
+    .content-wrapper > h4{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .content-wrapper > h3 > a{
+        font-size: 18px;
+    }
+    .mackbook-air-text > h1{
+        font-size: 50px;
+    }
+    .mackbook-air-text > h4{
+        font-size: 30px;
+    }
+
+    .video-section > .mackbook-air-text > h6 > a {
+        font-size: 20px;
+    }
+
+    .grid-img > img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .slider{
+        height: 510px;
+    }
+
+    .control-prev,
+    .control-next {
+      height: 500px;
+      width: 40px; /* Adjust the width if needed */
+      background-color: transparent;
+      color: #FFF;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px; /* Makes the buttons circular, adjust as needed */
+      /* Add any other styles you need */
+    }
+}
+
+@media (max-width: 425px) {
+    .content-img-1{
+        width: 400px;
+    }
+    .content-wrapper > h1{
+        font-size: 20px;
+        padding-top: 60px;
+    }
+    .content-wrapper > h4{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .content-wrapper > h3 > a{
+        font-size: 8px;
+    }
+    .mackbook-air-text > h1{
+        font-size: 29px;
+    }
+    .mackbook-air-text > h4{
+        font-size: 18px;
+    }
+
+    .video-section > .mackbook-air-text > h6 {
+        margin: 15px 0px;
+    }
+    .video-section > .mackbook-air-text > h6 > a {
+        font-size: 12px;
+    }
+
+    .iphone-section > h1{
+        font-size: 29px;
+    }
+
+    .iphone-section > h4{
+        font-size: 18px;
+    }
+
+    .iphone-section > h6{
+        margin: 12px 0px;
+    }
+    .iphone-section > h6 > a{
+        font-size: 8px;
+    }
+    .iphone-section > img{
+        width: 400px;
+    }
+
+    .flex-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+    }
+
+    .flex-row-1{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-row-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-row-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .grid-img {
+        width: 100vw;
+    }
+    .grid-img > img{
+        width:100vw;
+    }
+
+    .slider{
+        height: 260px;
+    }
+
+    .control-prev,
+    .control-next {
+        height: 230px;
+        width: 20px; /* Adjust the width if needed */
+        background-color: transparent;
+        color: transparent;
+        font-size: 16px;
+        border: none;
+        border-radius: 30px; /* Makes the buttons circular, adjust as needed */
+        /* Add any other styles you need */
+        margin: 40px 0px;
+    }
+
+}
+
+@media (max-width: 860px) {
+    .content-img-1{
+        width: 400px;
+    }
+    .content-wrapper > h1{
+        font-size: 20px;
+        padding-top: 60px;
+    }
+    .content-wrapper > h4{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .content-wrapper > h3 > a{
+        font-size: 8px;
+    }
+    .mackbook-air-text > h1{
+        font-size: 29px;
+    }
+    .mackbook-air-text > h4{
+        font-size: 18px;
+    }
+
+    .video-section > .mackbook-air-text > h6 {
+        margin: 15px 0px;
+    }
+    .video-section > .mackbook-air-text > h6 > a {
+        font-size: 12px;
+    }
+
+    .iphone-section > h1{
+        font-size: 29px;
+    }
+
+    .iphone-section > h4{
+        font-size: 18px;
+    }
+
+    .iphone-section > h6{
+        margin: 12px 0px;
+    }
+    .iphone-section > h6 > a{
+        font-size: 8px;
+    }
+
+    .vision-grid > h6{
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .flex-row-1{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .flex-row-2{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .flex-row-3{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .grid-img {
+        width: 500px;
+        height: 500px;
+    }
+    .grid-img > img{
+        width: 300px;
+    }
+
+    .slider{
+        width: 99vw;
+        height: 480px;
+    }
+
+}
+
+@media (max-width: 774px){
+    .slider{
+        height: 460px;
+    }
+}
+@media (max-width: 698px){
+    .slider{
+        height: 420px;
+    }
+}
+@media (max-width: 601px){
+    .slider{
+        height: 360px;
+    }
+}
+@media (max-width: 412px) {
+    .content-img-1{
+        width: 370px;
+    }
+    .flex-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+    }
+
+    .flex-row-1{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-row-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-row-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .grid-img {
+        width: 100vw;
+    }
+    .grid-img > img{
+        width:100vw;
+    }
+
+    .slider{
+        height: 260px;
+    }
+
+    .apple-paragraph{
+        background-color: #F5F5F7;
+        text-align: center;
+        font-size: 9px;
+        margin: 10px;
+    }
+
+}
+@media (max-width: 375px) {
+    .content-img-1{
+        width: 350px;
+    }
+    .content-img-1{
+        width: 370px;
+    }
+    .flex-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+    }
+
+    .flex-row-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .flex-row-1 > .iphone-grid > img{
+        height: 270px;
+    }
+    .flex-row-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-row-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-row-1 > .iphone-grid > h6{
+        margin: 20px;
+    }
+    .grid-img {
+        width: 100vw;
+    }
+    .grid-img > img{
+        width: 99vw;
+        margin: 0;
+    }
+    .grid-img > h6 {
+        margin: 10px 0px  ;
+    }
+    .grid-img > h6 > a{
+        padding-bottom: 10px;
+    }
+    .slider{
+        height: 260px;
+    }
+
+    .apple-paragraph{
+        background-color: #F5F5F7;
+        text-align: center;
+        font-size: 9px;
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .content-img-1{
+        width: 300px;
+    }
+}
+
+/* Example additional styles */

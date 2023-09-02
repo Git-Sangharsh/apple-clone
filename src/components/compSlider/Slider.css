@@ -1,0 +1,9 @@
+.slider{
+    position: relative;
+}
+
+.slider-carousel{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}

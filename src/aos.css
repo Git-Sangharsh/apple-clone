@@ -1,0 +1,16 @@
+.top > h1{
+    text-align: center;
+    height: auto;
+    margin: 20px ;
+}
+.text-center{
+    text-align: center;
+}
+
+.animation{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 10px auto;
+}
+
