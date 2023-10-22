@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+.Store{
+    margin-top: 40px;
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #F5F5F7;
+
+}
+
+.chart-store-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5F7;
+}
+
+.special-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chart-store-1-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.chart-store-1-row > h1{
+    color: #1D1D1F;
+    width: max-content;
+    font-size: 40px;
+    line-height: 1.08349;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.chart-store-1-row > h2{
+    color: #6E6E73;
+    width: max-content;
+    font-size: 40px;
+    line-height: 1.08349;
+    font-weight: 600;
+    text-align: start;
+}
+
+
+.chart-store-2-Ask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ask-specialist > h6{
+    margin: 5px;
+    padding: 0;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ask-specialist > a{
+    color: #0066ff;
+    font-size: 12px;
+}
+
+.chart-store-2{
+    border: 2px solid red;
+    background-color: #F5F5F7;
+    margin-left: 300px;
+}
+.carousel-map-div{
+    border: 2px solid red;
+}
+
+.react-multi-carousel-track{
+    width: 1000px;
+    border: 2px solid yellow;
+}
+
+.carousel-img{
+    width: 120px;
+}

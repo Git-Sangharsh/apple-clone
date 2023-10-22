@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import {
   faAppleAlt,
   faArrowRight,
@@ -27,7 +28,9 @@ const Navbar = () => {
           <FontAwesomeIcon className="fontawesome-style" icon={faAppleAlt} />
         </li>
         <li className="hide-nav ">
-          <a href="#">Store</a>
+          <Link to='/store'>
+            <a href="#">Store</a>
+          </Link>
         </li>
         <li className="hide-nav ">
           <a href="#">Mac</a>

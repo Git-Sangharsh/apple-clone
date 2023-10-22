@@ -26,7 +26,7 @@ const Content = () => {
   // Createing a ref using useRef
   const myref = useRef(null);
 
-  // Useing the ref in the useScroll hook
+  // Using the ref in the useScroll hook
   const { scrollYProgress } = useScroll({
     ref: myref, // Updated this line
     offset: ["0 1", "1.33 1"],
